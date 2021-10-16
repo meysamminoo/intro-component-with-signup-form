@@ -12,12 +12,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot.png)
+![](./ScreenShot.png)
 
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/meysamminoo/intro-component-with-signup-form)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://meysamminoo.github.io/intro-component-with-signup-form/)
 
 ### Built with
 
