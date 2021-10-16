@@ -28,12 +28,24 @@
           <p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
         </div>
         <div class="login-form">
-          <form action="#">
+          <form action="" name="login" onsubmit="return validate()">
             <input type="text" name="firstname" placeholder="First Name" />
+            <label for="firstname" class="error-message" id="firstname-error"
+              >First Name cannot be empty</label
+            >
             <input type="text" name="lastname" placeholder="Last Name" />
+            <label for="firstname" class="error-message" id="lastname-error"
+              >Last Name cannot be empty</label
+            >
             <input type="email" name="email" placeholder="Email Address" />
+            <label for="firstname" class="error-message" id="email-error"
+              >Looks like this is not an email</label
+            >
             <input type="password" name="password" placeholder="Password" />
-            <button class="btn">Claim your free trial</button>
+            <label for="firstname" class="error-message" id="password-error"
+              >Password cannot be empty</label
+            >
+            <button type="submit" id="btn">Claim your free trial</button>
           </form>
           <p class="terms">
             By clicking the button, you are agreeing to our
@@ -51,5 +63,6 @@
         >. Coded by <a href="#">Meysam Minooey</a>.
       </p>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
